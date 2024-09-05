@@ -1,0 +1,180 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--propriedade que controla o nível de amplificação quando a página é carregada pela primeira vez. Esse valor é usado para que o site web se enquadre proporcionalmente nas telas de celulares, pois sem esse valor, o site no celular fica com os elementos minúsculos, impedindo o usuário ter uma boa navegação. Assim, uma página web em que foi definida a meta tag como initial-scale=1, irá ser renderizada o mais próximo do tamanho físico possível dos celulares.-->
+	<meta name="description" content="site de acessórios para cães"/>
+	<meta name="keywords" content="cães, ração, shampoo, comida, remédios, pulgas"/>
+	<link rel="icon" href="../imagens/favicon.ico">
+	<!-- css- cascading style sheet= estilos em cascata  -->
+	<!-- vamos criar uma formatação dentro do html css interno  -->
+	<style>
+
+		body{
+
+
+			background-color:#ffffff;
+		}
+
+		a:link{ /*do link normal- sem ter clicado*/
+		 font-family: Arial, Helvetica, sans-serif;
+		 font-size: 20px;
+		 color: #cfcbcb;
+
+
+		}
+
+		a:visited{ /*formatação do link já clicado */
+
+			font-family: Arial, Helvetica, sans-serif;
+			color: rgb(0, 0, 0);
+
+
+		}
+
+		a:hover{ /* ao passar o mouse sobre o link*/
+			color: rgb(255, 255, 255);
+			font-size: 20px;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+		}
+
+		img{
+			width: 100%; /*largura da imagem*/
+			height: 100%; /*altura*/
+		}
+		h1{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 30px; /* tamanho da fonte*/
+			color: rgb(12, 12, 12); /*cor da fonte*/
+			text-align: center; /*alinhamento*/
+		}
+
+		h2{
+			text-align: center;
+			color: rgb(211, 190, 176);
+		}
+		#p1{
+			color: rgb(7, 7, 7);
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 15px;
+			text-align: justify;
+
+
+		}
+
+		#p2{
+			color: rgb(12, 12, 12);
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 15px;
+			text-align: justify;
+
+
+		}
+
+		.destaque{ /*para formatar uma classe */
+
+			color: #ff8400;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-weight: bold;
+		}
+		li{
+
+
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: justify;
+			font-size: 15px;
+		}
+
+		#topo{
+			background-color: #ff8400;
+			text-align: center;
+			padding: 10px;
+
+		}
+
+		#rodapé{
+			background-color: #ff8400;
+			text-align: center;
+
+
+		}
+		#coteudo{
+			background-color: aliceblue;
+		}
+
+		li{ /*tira as bolinhas*/
+
+			display: inline;
+		}
+	</style>
+
+	<!-- icone que aparece no topo da pagina -->
+	<title> PETSHOP </title> 
+	
+</head>
+
+<body>
+	<header id="topo">
+		<nav>
+			<ul>
+				<li><a href="index.html"> HOME |</a> </li>
+				<li><a href="produtos.html"> PRODUTOS |</a> </li>
+				<li><a href="banhoetosa.html"> BANHO E TOSA</a> </li>
+			</ul> 
+		</nav>
+
+	</header>
+
+	<section id="banner">
+		<img src="../imagens/banner.png">
+ 		<!-- vamos colocar um banner aqui -->
+	</section>
+ <!-- coloque título e subtitulo -->
+
+	<section id="conteudo">
+
+	<h1> CUIDE DO SEU PETSHOP</h2>
+	<h2>Shampoo anti pulgas</h2>
+
+<!-- vamos colocar uma linha de separação aqui -->
+
+	<hr>	<!-- aqui é um paragrafo -->
+	
+	<p id="p1">Lorem ipsum dolor sit amet. Eos dignissimos explicabo eum tempora optio et quam aspernatur. 
+	Ea corporis atque a voluptas neque et ullam error non quis rerum.
+	Eum dolor cumque et velit modi ea <span class="destaque">ratione laboriosam</span> hic suscipit
+	numquam ut perspiciatis mollitia. Non enim enim sit debitis optio 
+	sed porro minima nam enim obcaecati ab molestias ipsam! Nam quas 
+	illum vel reprehenderit consequatur ut sunt provident est quod autem ut ipsum numquam.
+	</p>
+
+	<p id="p2">Lorem ipsum dolor sit amet. Eos dignissimos explicabo eum tempora optio et quam aspernatur. 
+		Ea corporis atque a voluptas neque et ullam error non quis rerum.
+		Eum dolor cumque et velit modi ea ratione laboriosam hic suscipit
+		numquam ut perspiciatis mollitia. Non enim enim sit debitis optio 
+		sed porro minima nam enim obcaecati ab molestias ipsam! Nam quas 
+		illum vel reprehenderit consequatur ut sunt provident est quod autem ut ipsum numquam.
+	</p>
+	
+
+<!-- aqui são itens numa lista ( produto e descrição) -->
+<ol>
+	<li>Sabonete   </li>  sabonete calmante para seu cão dormir bem
+	<li>Brinquedos </li>   bolinha colorida pula pula 
+	<li>Shampoo</li>	     shampoo antipugas com cheiro de jasmim
+	<li>Petiscos</li>     petiscos em formato de estrela para peixes 
+</ol>
+</section>
+
+	<footer id="rodapé"> 
+		Todos os direitos reservados - 2024
+	</footer>
+</body>
+
+	
+</html>

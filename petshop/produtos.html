@@ -1,0 +1,216 @@
+=<!DOCTYPE html> 
+<html lang="pt-br"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--propriedade que controla o nível de amplificação quando a página é carregada pela primeira vez. Esse valor é usado para que o site web se enquadre proporcionalmente nas telas de celulares, pois sem esse valor, o site no celular fica com os elementos minúsculos, impedindo o usuário ter uma boa navegação. Assim, uma página web em que foi definida a meta tag como initial-scale=1, irá ser renderizada o mais próximo do tamanho físico possível dos celulares.-->
+	<meta name="description" content="site de acessórios para cães"/>
+	<meta name="keywords" content="cães, ração, shampoo, comida, remédios, pulgas"/>
+	<link rel="icon" href="favicon.ico">
+	<!-- css- cascading style sheet= estilos em cascata  -->
+	<!-- vamos criar uma formatação dentro do html css interno  -->
+	<style>
+
+		body{
+
+
+			background-color: rgb(255, 255, 255);
+		}
+
+
+		a:link{ /*do link normal- sem ter clicado*/
+		 font-family: Arial, Helvetica, sans-serif;
+		 font-size: 20px;
+		 color: black;
+
+
+		}
+
+		a:visited{ /*formatação do link já clicado */
+
+			font-family: Arial, Helvetica, sans-serif;
+			color: brown;
+
+
+		}
+
+		a:hover{ /* ao passar o mouse sobre o link*/
+			color: chocolate;
+			font-size: 20px;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+		}
+
+
+
+
+
+
+		img{
+			width: 100%; /*largura da imagem*/
+			height: 100%; /*altura*/
+		}
+		h1{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 30px; /* tamanho da fonte*/
+			color: rgb(212, 125, 11); /*cor da fonte*/
+			text-align: center; /*alinhamento*/
+		}
+
+		h2{
+			text-align: center;
+			color: chocolate;
+		}
+		#p1{
+			color: rgb(7, 7, 7);
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 15px;
+			text-align: justify;
+
+
+		}
+
+		#p2{
+			color: rgb(12, 12, 12);
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 15px;
+			text-align: justify;
+
+
+		}
+
+		.destaque{ /*para formatar uma classe */
+
+			color: rgb(248, 4, 4);
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-weight: bold;
+		}
+		li{
+
+
+			font-family: Arial, Helvetica, sans-serif;
+			text-align: justify;
+			font-size: 15px;
+		}
+
+		.brinquedos{
+			width: 40%;
+			height: 50%;
+			
+		}
+		
+
+		table{
+			width: 50%;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: 18px;
+			color: brown;
+			font-weight: bold;
+		}
+		
+		
+		.shampoo{
+			width: 40%;
+			height: 50%;
+			
+		}
+		
+
+		.ração{
+			width: 40%;
+			height: 50%;
+			
+		}
+		
+
+		.sabonete{
+			width: 40%;
+			height: 50%;
+			
+		}
+
+		td{
+			width: 20%;
+			
+		}
+			
+		/*começo formatar meus elementos: header, footer..*/
+
+		#topo{
+			background-color: rgb(0, 153, 255);
+			text-align: center;
+			padding: 10px;
+
+		}
+
+		#rodapé{
+			background-color: rgb(255, 250, 250);
+			text-align: center;
+
+
+		}
+		
+	</style>
+
+	<!-- icone que aparece no topo da pagina -->
+	<title> PETSHOP </title> 
+	
+</head>
+
+<body>
+	<!-- header é a parte de cima do seu site (cabeça) estou identificando para ficar semântico (humano) meus links são para navegar -->
+	<header id="topo">
+		
+		<nav>
+			<a href="index.html"> HOME |</a>
+			<a href="produtos.html"> PRODUTOS |</a>
+			<a href="banho.html"> BANHO E TOSA</a>
+		</nav>
+
+	</header>
+
+
+	
+ 
+
+ 
+
+
+	<section id="corpo">
+	<h1> PRODUTOS</h2>
+		<table align="center">
+           	<tr>
+				<td> <img src="../petshop/imagens/brinquedos.jfif" class="brinquedos"></td>
+           	 	<td> R$130,00</td>
+			</tr>
+			
+			<tr>
+            	<td><img src="../petshop/imagens/shapoom.jfif" class="shampoo" ></td>
+            	<td>R$130,00</td>
+			</tr>
+            
+			<tr>
+				<td><img src="../petshop/imagens/alimento.jfif" class="ração"></td>
+            	<td>R$130,00</td>
+			</tr>
+
+            <tr>
+				<td><img src="../petshop/imagens/sabao.jfif" class="sabonete"></td>
+            	<td>R$130,00</td>
+			</tr>
+		</table>
+	</section>
+		
+		<footer id="rodapé">
+			Todos os Direitos Reservados - 2024
+		</footer>
+
+
+        
+		
+	
+</body>
+</html>

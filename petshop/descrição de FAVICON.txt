@@ -1,0 +1,9 @@
+Favicons são os pequenos ícones associados a um site web ou página web particular, que se mostram junto aos marcadores na barra de endereços da maioria dos navegadores. 
+
+Os tamanhos mais utilizados para favicos são: 
+
+16x16, 32x32, 48x48, 64x64, 128x128.
+
+
+site gerador
+https://favicon.io/favicon-converter/
