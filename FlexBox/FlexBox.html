@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+
+    <style>
+        .wrapper{ /*Caixa Principal q receberá as outras internas */
+            display:flex; /*para transformar em blocos*/
+            flex-direction:row; /*ROW- coloquei em linha, mas temos column */
+            flex-wrap: wrap; /*qdo crio caixas elas ficam uma do lado da outra o flex-warp:wrap dara quebra quando totaliza 100%*/
+            justify-content: center;/*alinhamento dos blocos*/
+            align-items: center;/*alinhando os blocos na vertical */
+            width: 100%;
+            height: auto;
+            background-color: blue;
+            padding: 0%;
+
+        }
+
+        .BoxTopo{
+            background-color: blueviolet;
+            width: 100%;
+            height: 100px;
+            margin: 0px;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            padding-top: 2%;
+        }
+
+        .BoxBanner{
+            background-color: brown;
+            width: 100%;
+            height: auto;
+            margin:10px; /*Margem para a caixa ficar distante uma da outra */
+        }
+
+        .BoxDireita{
+            background-color: aqua;
+            width: 48%;
+            height: auto;
+            margin: 10px; /* margem ao redor das caixas para ficarem distantes */
+        }
+
+        .BoxEsquerda{
+            background-color: chartreuse;
+            width: 48%;
+            height: auto;
+            margin: 10px;/* margem ao redor das caixas para ficarem distantes */
+        }
+        .BoxRodape{
+            background-color: crimson;
+            width: 100%;
+            height: 50px;
+            margin:0px; /*coloque margem se quiser q não fique colado na mergem do wrapper*/
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            padding-top: 1.5%;
+        }
+
+        .TamanhoBanner{
+            width: 100%;
+            height: 300px;
+        }
+        
+        .BannerDireita{
+            width: 100%;
+            height: 300px;
+        }
+
+        .BannerEsquerda{
+            width: 100%;
+            height: 300px;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+<div class="wrapper">
+    <div class="BoxTopo">
+       home | portifolio | fale conosco
+    </div>
+
+    <div class="BoxBanner">
+       <img src="banner.jpg" class="TamanhoBanner">
+    </div>
+
+    <div class="BoxDireita">
+        <img src="images2.jfif" class="BannerDireita">
+    </div>
+
+    <div class="BoxEsquerda">
+       <img src="imagem.webp" class="BannerEsquerda">
+    </div>
+
+    <div class="BoxRodape">
+        Todos os Direitos Reservados - 2024
+    </div>
+</div>
+
+</body>
+</html>
