@@ -1,0 +1,326 @@
+
+        body{
+            margin: 0%;
+        }
+
+        .wrapper{ /*Caixa Principal q receberá as outras internas */
+            display:flex; /*para transformar em blocos*/
+            flex-direction:row; /*ROW- coloquei em linha, mas temos column */
+            flex-wrap: wrap; /*qdo crio caixas elas ficam uma do lado da outra o flex-warp:wrap dara quebra quando totaliza 100%*/
+            justify-content: center;/*alinhamento dos blocos*/
+            align-items: center;/*alinhando os blocos na vertical */
+            width: 100%;
+            height: auto;
+            background-color: #ffffff;
+            padding: 0%;
+
+        }
+
+        .Boxlogo{
+            background-color: black;
+            width: 20%;
+            height: 60px;
+            margin:0%;
+            color: rgb(26, 125, 212);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding-top: 0;
+        }
+
+        .BoxBotoes{
+            background-color: #f6f5f8;
+            width: 80%;
+            height: 60px;
+            margin: 0px;
+            text-align: center;
+            font-family: Century Gothic;
+            color: #0000f7;
+            padding-top: 0%;
+        }
+    
+
+        .BoxBanner{
+           
+            width: 100%;
+            height: auto;
+            margin:px; /*Margem para a caixa ficar distante uma da outra */
+        }
+
+        .BoxTratamento{
+            background-color: #2f3556;
+            width: 25%;
+            height: 300px;
+            margin: 10px; /* margem ao redor das caixas para ficarem distantes */
+           border-radius: 18px;
+            font-family: Bell MT;
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            margin-top:50px;
+        }
+        .Boxconheca{
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            padding-top: 2%;
+            color: #374e53;
+            font-family: bell mt;
+            font-size: 35px;
+            letter-spacing: 2px;
+            
+            
+           
+
+        }
+
+        .BoxLateral{
+           background-color: #fbffff;
+           width: 45%;
+           height: 300px;
+           margin: 10px;
+           margin-right: 10px;
+           border-radius: 50px;
+           padding-top: 5%;
+        }
+
+        .BoxTexto{
+            background-color: rgb(255, 255, 255);
+            width: 45%;
+            height: 300px;
+            margin: 0px;
+            padding: 1%;
+            color: #686f70;
+            font-size: 15px;
+            font-family: Century Gothic;
+            padding-top: 5%;
+        }
+
+        .BoxRedes{
+            background-color: #1e1d2f;
+            width: 31.3%;
+            height: 250px;
+            font-family: Century Gothic;
+            font-size: 20px;
+            padding: 1%;
+           
+        }
+
+        .BoxRodape{
+            background-color: #343856;
+            width: 100%;
+            height: 50px;
+            margin:0px; /*coloque margem se quiser q não fique colado na mergem do wrapper*/
+            text-align: center;
+            font-family: Century Gothic;
+            color: white;
+            padding-top: 0.5%;
+        }
+
+        .TamanhoBanner{
+            width: 100%;
+            height: 500px;
+        }
+        
+        .tamanhodalogo{
+            width: 100%;
+            height: 60px;
+        }
+
+        .Tamanhodaimagem{
+            width: 100%;
+            height: 150px;
+            border-radius: 18px;
+        }
+
+
+        .ImagemLateral{
+            width: 100%;
+            height: 300px;
+        }
+
+       .RedeImagem{
+        width: 50%;
+        padding-top: 10%;
+        margin-bottom: 2%;
+       }
+
+       
+
+       .Textorede{
+        text-decoration: none;
+        list-style: none;
+        color: #a4a3a5;
+        margin-left: 1%;
+        line-height: 100px;
+        font-size: 20px;
+        
+       }
+       
+        
+       
+        h1{
+            text-align: center;
+            color: #374e53;
+            font-family: Century Gothic;
+            font-size: 30px;
+        }
+
+        h2{
+            text-align: center;
+            color: #00acac;
+            font-family: Century Gothic ;
+            font-size: 30px;
+
+        }
+        
+/*MENU*/
+
+nav{
+	float: right;
+    padding-top: 1%;
+}
+
+nav ul{
+	list-style: none; /*remover bolinhas*/
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	text-decoration: none; /*remover sublinhado*/
+	color: #000000;
+	padding: 15px 15px 10px 15px;
+}
+
+nav ul li a:hover{ /*hover (mouse sobre o link)*/
+	color: #000000;
+	/*text-decoration: underline;*/
+	border-bottom: #000000 2px solid;
+}
+
+/* Contato */
+
+.boxForm{
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    margin-right: 5%;
+}
+
+form{ /*caixa para receber os inputs*/
+    background-color: rgb(255, 255, 255);
+    width: 45%; /*largura do formulário*/
+    margin: auto; /*para ficar no centro*/
+    font-family: 'Century Gothic', 'arial Narrow','arial','sans-serif';
+    padding-left: 10%;
+   margin-top: 5%;
+}
+
+input,textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size:1.2em;
+    background-color: #fafbff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color:aliceblue;
+    padding: 8px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.botoes{
+    text-align: center;
+    color:#d10000;
+    background-color:#5b607d;
+}
+
+
+/* BREAKPOINTS- TAMANHO DA TELA EM DIFERENTES DISPOSITIVOS */
+
+
+@media screen and (min-width : 375px) {
+    .BoxTratamento {
+      width: 55%;
+      height: auto;
+      float: left;
+      margin: 1%;
+      font-size: 1em;
+       
+    }
+  .BoxLateral{
+      width: 50%;
+      
+      float: left;
+      margin: 1%;
+      
+  }
+
+  /* diminui ele na tela pequena */
+  .Boxconheca{
+    font-size: 18px;
+    letter-spacing: 0px;
+
+  }
+
+  
+  }
+  
+  @media screen and (min-width : 576px) {
+    .BoxTratamento {
+      width: 50%;
+      height: auto;
+      float: left;
+      margin: 1%;
+      
+     
+      
+    }
+  }
+  
+  @media screen and (min-width : 768px) {
+    .BoxTratamento {
+      width: 30%;
+      float: left;
+      margin-right: 5%;
+      padding: 1%;
+   }
+  }
+  
+  
+  
+  @media screen and (min-width : 992px) {
+    .BoxTratamento {
+      width: 20%;
+      float: left;
+      margin-right: 0%;
+      padding: 1%;
+       
+    }
+  }
+  
+  @media screen and (min-width : 1200px) {
+    .BoxTratamento {
+      width: 20%;
+      float: left;
+      margin-right: 1%;
+      padding: 1%;
+     
+     
+      
+    }
+   
+    /*aumentei ele na tela grande*/
+  .Boxconheca{
+      font-size: 35px;
+      letter-spacing: 2px;
+  }
+
+  }
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odontologia</title>
+    <link type="text/css" rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+<div class="wrapper">
+   
+    <div class="Boxlogo">
+        <img src="../IMAGENS/logo.png" class="tamanhodalogo">
+    </div> 
+    
+    
+    <div class="BoxBotoes">
+        <header id="TOPO">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="quem_somos.html">QUEM SOMOS</a> </li>
+                    <li><a href="contato.html">CONTATO</a> </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+
+    <div class="boxForm">
+       
+        <div id="conteudo_formulario"> <!--caixa que receberá o formulário-->
+    
+          <form method="post" id="fContato" action="mailto:kelly.psouza@sp.senac.br">
+                                          
+              <p>       
+                <input type="text" name="tNome" id="cNome" size="50%"
+                 maxlength="20"autofocus required placeholder="Nome" />
+              </p>
+    
+              <p>
+                <input type="tel" name="tTel" id="cTel" size="50%" maxlength="14" 
+                 placeholder="Telefone EX:(xx)xxxxx-xxxx"  required />
+              </p>
+                        
+              <p>
+              <input type="email" name="tMail" id="cMail" size="50%" maxlength="30" 
+               placeholder="E-mail" required />
+              <p>
+               
+              <!-- type DATE para aparecer calendário   -->
+              Data desejada para consulta:<br> 
+              <input type="date" name="tNasc" id="cNasc" size="50%"/>
+              </p>
+              
+              <!-- textarea para uma caixa maior com mais linhas -->
+              <textarea name="tMsg" id="cMsg" cols="50%" rows="5" 
+              placeholder="Deixe aqui sua mensagem">
+              </textarea>
+                  
+               <!-- botoes -->
+              <p>
+                 <input type="submit" name="Enviar" />  
+              </p>
+                  
+              </form>
+          </div>
+    
+      </div>
+
+     
+
+    <div class="BoxRedes">
+       <p><a href=# class="Textorede">A odontoClinic</a></p>
+        <p><a href=# class="Textorede">Nossos Tratamentos</a></p>
+    </div>
+
+    <div class="BoxRedes">
+        <p><a href=# class="Textorede">Onde estamos</a></p>
+        <p><a href=# class="Textorede">Harmonização facial</a></p>
+    </div>
+    
+    <div class="BoxRedes">
+       
+            <img src="../IMAGENS/redes1.png "class="RedeImagem">
+             
+            <p class="Textorede"> Conecte-se  </p>
+       
+    </div>
+    
+    
+    <div class="BoxRodape">
+        Todos os Direitos Reservados - 2024
+    </div>
+</div>
+
+</body>
+</html>
