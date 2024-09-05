@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.LOGO{
+    height:100%;
+    width: 50px;
+    
+}
+
+nav ul{
+
+    text-align: center;
+}
+
+
+.rodape{
+    background-color: #bdbaba;
+    margin-top: 3%; 
+    text-align: center;
+
+}
+
+.Topo{
+    margin: 3%;
+    
+}
+
+.BannerFinal{
+    margin-top: 4%;
+}
+
+.Texto{
+    margin-top: 4% ;
+    text-align: center;
+}
+
+.Botoes{
+    color: orangered;
+}
+
+.thumb{
+    padding: 1%;
+}
