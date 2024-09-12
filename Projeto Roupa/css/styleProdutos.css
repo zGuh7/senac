@@ -1,0 +1,106 @@
+@charset "UTF-8";
+.LOGO{
+    height:100%;
+    width: 90px;
+    
+}
+
+.BoxBotoes{
+    color: #e2be8b;
+    width: 80%;
+    height: 60px;
+    margin: 5px;
+    text-align:left;
+    font-family: Klill;
+    
+    
+   
+    
+}
+
+
+
+
+.botao{
+    font-family: Klill;
+    background-color: #e7e7e7;
+    color: black;
+    padding-top:10px ;
+    
+}
+ 
+.Produtos{
+    margin-bottom:10% ; 
+     text-align: center;
+}
+
+
+.img-thumbnail{
+    height: 400px;
+    width: 60%;
+   border: 0;
+    
+}
+
+p{
+     font-family:Candara;
+}
+
+
+
+.rodape1{
+    background-color: #e2be8b;
+    height: 100%;
+    font-family: Corbel;
+    
+}
+    
+
+h1{
+    font-family: Amatic SC;
+}
+
+.rodape2{
+    background-color: #7aae7c;
+    text-align: center;
+}
+
+
+/*MENU*/
+
+nav{
+    max-width: 100%; /*nav é onde estao os links */
+   height: 50px;
+   padding-top: 1%;
+}
+
+nav ul{
+   list-style: none; /*DESATIVA AS PROPRIEDADES DO ELEMENTO*/
+   margin: 0%;
+   padding: 0%;
+   text-align: right;
+   font-family:Klill;
+}
+
+nav ul li{
+   display: inline-block;  /*blocos na mesma linha */
+   margin-right: 10px; /*distância entre os botoes*/
+}
+
+nav ul li a{
+   padding: 5px;
+   text-decoration: none; /*retirar a linha abaixo dos links normais*/
+   color: #e2be8b;
+   display: block;
+   text-align: right;
+   
+}
+
+nav ul li a:hover{
+    background-color: #f7f7f7; /*cor quando passar o mouse  */
+   transition: all .5s;
+   border-radius: 10px; /*arredondado*/
+}
+
+
+
